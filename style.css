@@ -189,6 +189,13 @@ footer a:hover {
     body{
         font-size: 20px;
     }
+    nav {
+        padding: 10px;
+    }
+    
+    nav ul { 
+        font-size: 18px;
+    }
     .textPanel{
         width:auto;
         margin:5%;
