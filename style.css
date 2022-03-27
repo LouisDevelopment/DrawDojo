@@ -165,7 +165,7 @@ div.divider{
     padding-right:5%;
 }
 
-#aboutUs p{
+#ourTeam p{
     font-size: 30px;
     padding-bottom: 40px;
 }
@@ -194,7 +194,9 @@ footer a:hover {
     }
     
     nav ul { 
-        font-size: 18px;
+        margin-left:26%;
+        font-size: 24px;
+        text-align: center;
     }
     .textPanel{
         width:auto;
@@ -202,7 +204,7 @@ footer a:hover {
         padding: 6%;
         width: 80%;
     }
-    #aboutUs p{
+    #ourTeam p{
         font-size: 20px;
         padding-bottom: 40px;
     }
@@ -212,9 +214,14 @@ footer a:hover {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     body{
         font-size: 16px;
+    }
+     nav ul { 
+        margin-left:20%;
+        font-size: 16px;
+        text-align: center;
     }
     .textPanel{
         width:auto;
